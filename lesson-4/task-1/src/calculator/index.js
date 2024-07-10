@@ -10,9 +10,7 @@ export const mult = (a, b) => {
   // ... implementation
 };
 
-const calc = (expression) => {
+export default (expression) => {
   console.log("implementation for calc");
   // ... implementation
 };
-
-export default calc;

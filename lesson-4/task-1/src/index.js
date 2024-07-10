@@ -1,8 +1,8 @@
 // file path: index.js
-import "./polyfills/array-flat.js"; // Import polyfills
+import "./polyfills/array-flat.js";
+import "./polyfills/array-flatMap.js";
 
-import { sum, mult } from "./calculator/index.js";
-import calcExpression from "./calculator/index.js"; // Default export
+import calcExpression, { sum, mult } from "./calculator/index.js"; // Default export
 import fetchUser from "./profile/gateway.js"; // Default export
 import { printProfile } from "./profile/index.js"; // Named export
 
